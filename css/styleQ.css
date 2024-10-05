@@ -113,6 +113,28 @@ section{
     margin-top: 30px;
     border-radius: 15px;
 }
+@media(min-width: 200px) and (max-width: 700px){
+    .picture1{
+        width: 250px;
+        height: 250px;
+        background-size: 250px;
+    }
+    .picture2{
+        width: 250px;
+        height: 250px;
+        background-size: 250px;
+    }
+    .picture3{
+        width: 250px;
+        height: 250px;
+        background-size: 250px;
+    }
+    .picture4{
+        width: 250px;
+        height: 250px;
+        background-size: 250px;
+    }
+}
 @media(min-width: 800px) and (max-width: 4000px){
     section{
         width: 900px;
