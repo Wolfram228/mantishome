@@ -1,0 +1,149 @@
+h1{
+    font-size: 200%;
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+    margin-bottom: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.mantis{
+    font-size: 200%;
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+h2{
+    font-size: 150%;
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+}
+p{
+    font-size: 110%;
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-align: center;
+}
+body{
+    background-image: url("forest.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 250%;
+}
+.shapka{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin: 5%;
+    padding: 5%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    font-family: 'Trebuchet MS';
+    color: white;
+    text-decoration: none;
+}
+.silochka{
+    text-align: center;
+    margin: 5px;
+}
+section{
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5%;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+.picture1{
+    background-image: url("pic_1.jpg");
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.picture2{
+    background-image: url("pic_2.jpg");
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.picture3{
+    background-image: url("pic_3.jpg");
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.picture4{
+    background-image: url("pic_4.jpg");
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+@media(min-width: 800px) and (max-width: 4000px){
+    section{
+        width: 900px;
+    }
+    .picture1{
+        width: 800px;
+        height: 800px;
+        background-size: 800px;
+    }
+    .picture2{
+        width: 800px;
+        height: 800px;
+        background-size: 800px;
+    }
+    .picture3{
+        width: 800px;
+        height: 800px;
+        background-size: 800px;
+    }
+    .picture4{
+        width: 800px;
+        height: 800px;
+        background-size: 800px;
+    }
+    .shapka{
+        width: 900px;
+    }
+    h1{
+        width: 900px;
+    }
+    header{
+        width: 900px;
+    }
+}
